@@ -1,0 +1,24 @@
+@import './variables';
+
+.mainInfo{
+    margin-top:100px !important;
+    .video{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.accordionInfo{
+    width:100%;
+    .accordionInfo__item{
+        background-color: $primary-color !important;
+        .accordionInfo__btn{
+            background-color: $primary-color !important;
+            font-weight: bold;
+        }    
+    }
+}
+
+
+
+

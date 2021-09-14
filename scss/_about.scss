@@ -1,0 +1,26 @@
+@import './variables';
+
+.inicioAbout{
+    height:100vh;
+    background-image: url('../assets/fondoinicio2.jpg') ;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white !important;
+}
+.mainAbout__figure{
+    display:flex;
+    justify-content: center;
+    .mainAbout__foto{
+        height: $about-foto-height;
+        width: $about-foto-width;
+    }
+}
+.mainAbout__texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

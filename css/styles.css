@@ -1,0 +1,274 @@
+.inicioAbout {
+  height: 100vh;
+  background-image: url("../assets/fondoinicio2.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white !important; }
+
+.mainAbout__figure {
+  display: flex;
+  justify-content: center; }
+  .mainAbout__figure .mainAbout__foto {
+    height: 516px;
+    width: 387px; }
+
+.mainAbout__texto {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* Generales  */
+html {
+  font-size: 15px; }
+
+body {
+  background: radial-gradient(#f2e8cf, #c2baa6);
+  font-family: "EB Garamond", Helvetica, Arial, sans-serif !important; }
+
+ul {
+  list-style-type: none; }
+
+iframe {
+  margin: 20px;
+  height: 400px; }
+
+/* --------------------- */
+/* Barra de navegacion */
+.sticky {
+  position: fixed;
+  background-color: rgba(242, 232, 207, 0.65);
+  z-index: 1; }
+
+.header {
+  display: flex;
+  justify-content: center; }
+  .header .header__logo {
+    width: 100px;
+    height: 100px;
+    border: none;
+    box-shadow: none; }
+
+.navBar {
+  justify-content: flex-end;
+  align-items: flex-start; }
+  .navBar .navBar__link {
+    margin: 20px;
+    color: black; }
+    .navBar .navBar__link:hover {
+      color: black;
+      background: radial-gradient(rgba(242, 232, 207, 0.7), rgba(242, 232, 207, 0));
+      border-radius: 100px; }
+
+.navDropDown {
+  background-color: #f2e8cf !important; }
+  .navDropDown .navDropDown__link {
+    text-decoration: none; }
+
+.navMobile {
+  display: none; }
+
+/* --------------------- */
+/* footer */
+main, footer {
+  padding: 15px; }
+
+footer {
+  background-color: #f2e8cf; }
+  footer .footer__icon {
+    display: inline-block; }
+
+.redes {
+  display: flex;
+  justify-content: flex-end; }
+  .redes .redes__link {
+    margin: 15px; }
+
+.fa {
+  box-sizing: content-box;
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none; }
+  .fa:hover {
+    opacity: 0.7; }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white; }
+
+.fa-instagram {
+  background: #125688;
+  color: white; }
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white; }
+
+/* --------------------- */
+.inicioHome {
+  height: 100vh;
+  background-image: url("../assets/fondoinicio.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white !important; }
+  .inicioHome .inicioHome__frase {
+    display: flex;
+    height: 100vh;
+    color: black;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: x-large;
+    font-style: italic; }
+    .inicioHome .inicioHome__frase .inicioHome__frase--scale {
+      transition: all 1s; }
+      .inicioHome .inicioHome__frase .inicioHome__frase--scale:hover {
+        transform: scale(1.1); }
+    .inicioHome .inicioHome__frase .inicioHome__frase--izquierda {
+      align-self: flex-start; }
+    .inicioHome .inicioHome__frase .inicioHome__frase--derecha {
+      align-self: flex-end; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.indexGallery {
+  height: 100vh; }
+  .indexGallery .indexCarousel {
+    width: 70%; }
+
+.comentarios {
+  margin: 50px;
+  margin-top: 50px; }
+
+.comentarios__imagen {
+  width: 75px;
+  height: 75px; }
+
+.comentarios__texto {
+  font-style: italic; }
+
+.mainInfo {
+  margin-top: 100px !important; }
+  .mainInfo .video {
+    display: flex;
+    justify-content: center; }
+
+.accordionInfo {
+  width: 100%; }
+  .accordionInfo .accordionInfo__item {
+    background-color: #f2e8cf !important; }
+    .accordionInfo .accordionInfo__item .accordionInfo__btn {
+      background-color: #f2e8cf !important;
+      font-weight: bold; }
+
+.mainContact {
+  margin-top: 100px !important; }
+
+.maps {
+  width: 100%; }
+
+.inicioGallery {
+  height: 100vh;
+  background-image: url("../assets/fondoabout.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white !important; }
+
+.mainGallery {
+  margin-top: 100px !important; }
+  .mainGallery .galleryTitle {
+    text-align: center; }
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100vh;
+  padding-right: 200px !important;
+  padding-left: 200px !important; }
+  .gallery .gallery__img {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px; }
+
+/* Galeria */
+.galleryButton {
+  margin: 10px;
+  padding: 0px;
+  background: none;
+  border: none;
+  transition: all 0.2s; }
+  .galleryButton:focus {
+    transform: scale(3) !important;
+    z-index: 2; }
+
+/* Logo */
+@keyframes logo {
+  0% {
+    transform: rotate(-1deg); }
+  50% {
+    transform: rotate(2deg); }
+  100% {
+    transform: rotate(-1deg); } }
+
+.header__logo:hover {
+  animation-name: logo;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 0.3s;
+  animation-delay: 0s; }
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+    max-width: 100vw;
+    max-height: 100vh; }
+  .inicioHome__frase {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+  .comentarios__imagen {
+    width: 80px;
+    height: 80px; }
+  .gallery__img {
+    width: 105px;
+    height: 105px; }
+  .mainContact {
+    margin-top: 120px !important; }
+  nav.navPC {
+    display: none; }
+  .navMobile {
+    display: flex;
+    justify-content: center; }
+  .contactIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .inicioAbout {
+    background-image: url("../assets/fondoinicio3.jpg");
+    background-position: left; }
+  .inicioGallery {
+    background-image: url("../assets/fondoinicio4.jpg"); } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 13.5px; }
+  .gallery__img {
+    width: 135px !important;
+    height: 135px !important; }
+  .comentarios__imagen {
+    width: 90px;
+    height: 90px; } }

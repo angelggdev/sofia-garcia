@@ -1,0 +1,36 @@
+/* Galeria */
+
+.galleryButton{
+    margin:10px;
+    padding:0px;
+    background:none;
+    border:none;
+    transition: all 0.2s;
+    &:focus{
+        transform:scale(3.0) !important;
+        z-index:2;
+    }
+}
+
+/* Logo */
+
+@keyframes logo {
+    0%{
+        transform: rotate(-1deg);
+    }
+    50%{
+        transform:rotate(2deg);
+    }
+    100%{
+        transform:rotate(-1deg);
+    }
+
+}
+
+.header__logo:hover{
+    animation-name: logo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 0.3s;
+    animation-delay: 0s;
+}

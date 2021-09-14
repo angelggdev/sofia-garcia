@@ -1,0 +1,31 @@
+.inicioGallery{
+    height:100vh;
+    background-image: url('../assets/fondoabout.jpg') ;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white !important;
+}
+
+.mainGallery{
+    margin-top:100px !important;
+    .galleryTitle{
+        text-align: center;
+    }
+}
+
+.gallery{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    max-width:100vh;
+    padding-right:200px !important;
+    padding-left:200px !important;
+    .gallery__img {
+        margin:10px;
+        width:$img-gallery-size;
+        height: $img-gallery-size;
+        border-radius: 5px;
+    }    
+}
