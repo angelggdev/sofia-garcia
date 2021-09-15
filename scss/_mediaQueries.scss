@@ -28,7 +28,30 @@
     }
     .navMobile{
         display:flex;
-        justify-content: center;
+        justify-content: flex-end;
+        .menuButton:focus{
+            box-shadow:none;
+            border:none;
+        }
+        .menuMobile{
+            width:50vw !important;
+            height:40vh !important;
+            background-color: $primary-color;
+            .closeButton{
+                display:flex;
+                justify-content: flex-end;
+            }
+            .menuMobileLinks{
+                display:flex;
+                flex-direction:column;
+                align-items: center;
+                justify-content: space-around;
+                .menuMobileLinks__link{
+                    margin:5px;
+                    font-size:14px;
+                }
+            }
+        }
     }
 
     .contactIcons{

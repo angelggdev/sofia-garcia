@@ -22,7 +22,7 @@
     <div class="inicioHome row">
         <div class="sticky container">
             <div class="row">
-                <header class="header col-12 col-md-2">
+                <header class="header col-6 col-md-2">
                     <a href="./index.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Home">
                         <img src="./assets/logo.png" alt="Logo" class="header__logo">
                     </a>
@@ -33,17 +33,25 @@
                     <a class="navBar__link nav-link" href="./contact.html">Contacto</a>
                     <a class="navBar__link nav-link" href="./info.html">El proceso del tatuaje</a>
                 </nav>
-                <nav class="navMobile col-12">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            Menu
-                        </button>
-                        <ul class="navDropDown dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a href="./about.html" class="navDropDown__link nav-link">Sobre mí</a></li>
-                            <li><a href="./gallery.html" class="navDropDown__link nav-link">Galería</a></li>
-                            <li><a href="./contact.html" class="navDropDown__link nav-link">Contacto</a></li>
-                            <li><a href="./info.html" class="navDropDown__link nav-link">El proceso del tatuaje</a></li>
-                        </ul>
+                <nav class="navMobile col-6">
+                    <button class="menuButton btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                    <div class="menuMobile offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="closeButton offcanvas-header">
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                            </button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="menuMobileLinks nav">
+                                <li><a href="./about.html" class="menuMobileLinks__link nav-link">Sobre mí</a></li>
+                                <li><a href="./gallery.html" class="menuMobileLinks__link nav-link">Galería</a></li>
+                                <li><a href="./contact.html" class="menuMobileLinks__link nav-link">Contacto</a></li>
+                                <li><a href="./info.html" class="menuMobileLinks__link nav-link">El proceso del tatuaje</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </div>

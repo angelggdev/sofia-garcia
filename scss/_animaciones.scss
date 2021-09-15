@@ -7,7 +7,7 @@
     border:none;
     transition: all 0.2s;
     &:focus{
-        transform:scale(3.0) !important;
+        transform:scale(2.5) !important;
         z-index:2;
     }
 }

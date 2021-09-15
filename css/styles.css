@@ -213,7 +213,7 @@ section {
   border: none;
   transition: all 0.2s; }
   .galleryButton:focus {
-    transform: scale(3) !important;
+    transform: scale(2.5) !important;
     z-index: 2; }
 
 /* Logo */
@@ -252,7 +252,25 @@ section {
     display: none; }
   .navMobile {
     display: flex;
-    justify-content: center; }
+    justify-content: flex-end; }
+    .navMobile .menuButton:focus {
+      box-shadow: none;
+      border: none; }
+    .navMobile .menuMobile {
+      width: 50vw !important;
+      height: 40vh !important;
+      background-color: #f2e8cf; }
+      .navMobile .menuMobile .closeButton {
+        display: flex;
+        justify-content: flex-end; }
+      .navMobile .menuMobile .menuMobileLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; }
+        .navMobile .menuMobile .menuMobileLinks .menuMobileLinks__link {
+          margin: 5px;
+          font-size: 14px; }
   .contactIcons {
     display: flex;
     align-items: center;
