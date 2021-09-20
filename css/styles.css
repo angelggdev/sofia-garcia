@@ -223,14 +223,18 @@ section {
     max-width: 100vw;
     max-height: 100vh; }
   .inicioHome__frase {
-    padding-left: 50px;
-    padding-right: 50px; }
-  .comentarios__imagen {
-    width: 80px;
-    height: 80px; }
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+  .comentarios {
+    margin: 20px; }
+    .comentarios .comentarios__imagen {
+      width: 80px;
+      height: 80px; }
   .gallery__img {
     width: 105px;
     height: 105px; }
+  .galleryButton:focus {
+    transform: scale(2) !important; }
   .mainContact {
     margin-top: 120px; }
   nav.navPC {
@@ -257,21 +261,29 @@ section {
           margin: 5px;
           font-size: 14px; }
   .contactIcons {
+    margin: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: space-between; }
   .inicioAbout {
     background-image: url("../assets/fondoinicio3.jpg");
     background-position: left; }
   .inicioGallery {
-    background-image: url("../assets/fondoinicio4.jpg"); } }
+    background-image: url("../assets/fondoinicio4.jpg"); }
+  .footer__datos {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: flex-start !important; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     font-size: 13.5px; }
-  .gallery__img {
-    width: 135px;
-    height: 135px; }
+  .gallery {
+    padding-right: 100px;
+    padding-left: 100px; }
+    .gallery .gallery__img {
+      width: 135px;
+      height: 135px; }
   .comentarios__imagen {
     width: 90px;
     height: 90px; } }

@@ -7,17 +7,23 @@
         max-height:100vh;
     } 
     .inicioHome__frase{
-        padding-left:50px ;
-        padding-right:50px ;
+        padding-left:50px !important;
+        padding-right:50px !important;
     }
-    .comentarios__imagen{
-        width:$img-comentarios-size *0.8;
-        height:$img-comentarios-size *0.8;
+    .comentarios{
+        margin:20px;
+        .comentarios__imagen{
+            width:$img-comentarios-size *0.8;
+            height:$img-comentarios-size *0.8;
+        }
     }
 
     .gallery__img{
         width:$img-gallery-size *0.7;
         height:$img-gallery-size *0.7;
+    }
+    .galleryButton:focus{
+        transform:scale(2.0) !important;
     }
     .mainContact{
         margin-top:120px ;
@@ -55,9 +61,10 @@
     }
 
     .contactIcons{
+        margin:20px;
         display: flex;
         align-items: center; 
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .inicioAbout{
         background-image: url('../assets/fondoinicio3.jpg');
@@ -66,6 +73,11 @@
     .inicioGallery{
         background-image: url('../assets/fondoinicio4.jpg');
     }
+    .footer__datos{
+        flex-direction:column;
+        justify-content:center !important;
+        align-items: flex-start !important;
+    }
     
 }
 
@@ -73,9 +85,13 @@
     body{
         font-size:$font-size*0.9;
     }
-    .gallery__img{
-        width:$img-gallery-size * 0.9 ;
-        height:$img-gallery-size * 0.9 ;
+    .gallery{
+        padding-right:100px;
+        padding-left:100px;
+        .gallery__img{
+            width:$img-gallery-size * 0.9 ;
+            height:$img-gallery-size * 0.9 ;
+        }
     }
     .comentarios__imagen{
         width:$img-comentarios-size * 0.9;
