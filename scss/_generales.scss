@@ -7,7 +7,7 @@ html{
 }
 body {
     background: radial-gradient($primary-color, $primary-color*0.8);
-    font-family: "EB Garamond", Helvetica, Arial, sans-serif !important;
+    font-family: "EB Garamond", Helvetica, Arial, sans-serif ;
 } 
 ul {
     list-style-type: none;
@@ -49,7 +49,7 @@ iframe {
     }
 }
 .navDropDown{
-    background-color: $primary-color !important;
+    background-color: $primary-color ;
     .navDropDown__link {
         text-decoration: none;
     }
@@ -66,45 +66,31 @@ iframe {
 main, footer{
     padding:15px;
 } 
+
 footer{
     background-color: $primary-color; 
-    .footer__icon{
-        display:inline-block;
+    .footer__datos{
+        display:flex;
+        justify-content:flex-start;
+        align-items: center;
+        .footer__item{
+            margin:10px;
+            .footer__icon{
+                display:inline-block;
+                margin-bottom:0px;
+            }
+        }
+    }
+    .redes{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .redes__link{
+            margin:15px;
+        }
     }
 } 
 
-.redes{
-    display: flex;
-    justify-content: flex-end;
-    .redes__link{
-        margin:15px;
-    }
-}
 
-.fa {
-    box-sizing: content-box;
-    padding: 20px;
-    font-size: 30px;
-    width:20px;
-    text-align: center;
-    text-decoration: none;
-    &:hover {
-        opacity: 0.7;
-    }
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
 
 /* --------------------- */

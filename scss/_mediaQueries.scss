@@ -7,8 +7,8 @@
         max-height:100vh;
     } 
     .inicioHome__frase{
-        padding-left:50px !important;
-        padding-right:50px !important;
+        padding-left:50px ;
+        padding-right:50px ;
     }
     .comentarios__imagen{
         width:$img-comentarios-size *0.8;
@@ -20,7 +20,7 @@
         height:$img-gallery-size *0.7;
     }
     .mainContact{
-        margin-top:120px !important;
+        margin-top:120px ;
     }
     
     nav.navPC{
@@ -34,8 +34,8 @@
             border:none;
         }
         .menuMobile{
-            width:50vw !important;
-            height:40vh !important;
+            width:50vw ;
+            height:40vh ;
             background-color: $primary-color;
             .closeButton{
                 display:flex;
@@ -74,8 +74,8 @@
         font-size:$font-size*0.9;
     }
     .gallery__img{
-        width:$img-gallery-size * 0.9 !important;
-        height:$img-gallery-size * 0.9 !important;
+        width:$img-gallery-size * 0.9 ;
+        height:$img-gallery-size * 0.9 ;
     }
     .comentarios__imagen{
         width:$img-comentarios-size * 0.9;

@@ -1,7 +1,7 @@
 @import './variables';
 
 .mainInfo{
-    margin-top:100px !important;
+    margin-top:100px ;
     .video{
         display: flex;
         justify-content: center;
@@ -11,9 +11,9 @@
 .accordionInfo{
     width:100%;
     .accordionInfo__item{
-        background-color: $primary-color !important;
+        background-color: $primary-color ;
         .accordionInfo__btn{
-            background-color: $primary-color !important;
+            background-color: $primary-color ;
             font-weight: bold;
         }    
     }
