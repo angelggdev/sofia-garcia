@@ -160,8 +160,16 @@ section {
 .mainContact {
   margin-top: 100px; }
 
+form {
+  display: flex;
+  flex-direction: column; }
+
 .maps {
   width: 100%; }
+
+.enviar {
+  width: 70px;
+  height: 50px; }
 
 .inicioGallery {
   height: 100vh;
@@ -270,6 +278,8 @@ section {
     background-position: left; }
   .inicioGallery {
     background-image: url("../assets/fondoinicio4.jpg"); }
+  .enviar {
+    align-self: center; }
   .footer__datos {
     flex-direction: column;
     justify-content: center !important;

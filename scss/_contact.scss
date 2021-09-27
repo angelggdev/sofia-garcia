@@ -2,6 +2,16 @@
     margin-top:100px ;
 }
 
+form{
+    display:flex;
+    flex-direction: column;
+}
+
 .maps{
     width:100%;
+}
+
+.enviar{
+    width:70px;
+    height:50px;
 }
