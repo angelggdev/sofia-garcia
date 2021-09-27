@@ -139,7 +139,8 @@ section {
 
 .comentarios {
   margin: 50px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-size: 17px; }
 
 .comentarios__imagen {
   width: 75px;
@@ -149,7 +150,8 @@ section {
   font-style: italic; }
 
 .mainInfo {
-  margin-top: 100px; }
+  margin-top: 100px;
+  min-height: 100vh; }
   .mainInfo .video {
     display: flex;
     justify-content: center; }
@@ -237,7 +239,8 @@ form {
     padding-left: 50px !important;
     padding-right: 50px !important; }
   .comentarios {
-    margin: 20px; }
+    margin: 20px;
+    font-size: 15px; }
     .comentarios .comentarios__imagen {
       width: 80px;
       height: 80px; }
