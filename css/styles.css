@@ -16,8 +16,16 @@
 
 .mainAbout__texto {
   display: flex;
-  align-items: center;
+  text-align: right;
+  flex-direction: column;
+  align-items: flex-end;
   justify-content: center; }
+  .mainAbout__texto a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: bold; }
+    .mainAbout__texto a:hover {
+      color: grey; }
 
 /* Generales  */
 html {
@@ -35,7 +43,8 @@ iframe {
   height: 400px; }
 
 h1 {
-  text-align: center; }
+  text-align: center;
+  margin: 20px; }
 
 /* --------------------- */
 /* Barra de navegacion */
@@ -287,6 +296,10 @@ form {
   .inicioAbout {
     background-image: url("../assets/fondoinicio3.jpg");
     background-position: left; }
+  .mainAbout__texto {
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
   .inicioGallery {
     background-image: url("../assets/fondoinicio4.jpg"); }
   .enviar {

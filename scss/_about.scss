@@ -19,8 +19,18 @@
 }
 .mainAbout__texto{
     display: flex;
-    align-items: center;
+    text-align:right;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: center;
+    a{
+        text-decoration: none;
+        color:#212529;
+        font-weight: bold;
+        &:hover{
+            color:grey;
+        }
+    }
 }
 
 
