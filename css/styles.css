@@ -34,6 +34,9 @@ iframe {
   margin: 20px;
   height: 400px; }
 
+h1 {
+  text-align: center; }
+
 /* --------------------- */
 /* Barra de navegacion */
 .sticky {
@@ -128,7 +131,9 @@ section {
   align-items: center; }
 
 .indexGallery {
-  height: 100vh; }
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
   .indexGallery .indexCarousel {
     width: 70%; }
 
@@ -182,8 +187,6 @@ form {
 
 .mainGallery {
   margin-top: 100px; }
-  .mainGallery .galleryTitle {
-    text-align: center; }
 
 .gallery {
   display: flex;
@@ -238,6 +241,11 @@ form {
     .comentarios .comentarios__imagen {
       width: 80px;
       height: 80px; }
+  .indexGallery {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
   .gallery__img {
     width: 105px;
     height: 105px; }

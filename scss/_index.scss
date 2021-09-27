@@ -39,6 +39,8 @@ section{
 }
 .indexGallery{
     height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     .indexCarousel{
         width:70%;
     } 

@@ -17,7 +17,12 @@
             height:$img-comentarios-size *0.8;
         }
     }
-
+    .indexGallery{
+        height:70vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
     .gallery__img{
         width:$img-gallery-size *0.7;
         height:$img-gallery-size *0.7;
